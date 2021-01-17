@@ -1,0 +1,103 @@
+.Twilight{
+    height: 1000px;
+}
+
+/* .fishImage:hover{
+    width: 200px;
+    height: 200px;
+} */
+/* fish */
+.fishContainer{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-items: stretch;
+    
+    margin-left: 40%;
+    margin-top: 10%;
+
+    width: 600px;
+    height: 300px;
+
+}
+.fishImage{
+    width: 125px;
+    height: 125px;
+}
+.fishImage:hover{
+    width: 150px;
+    height: 150px;
+}
+
+.fishLabel{
+    opacity: 0.6;
+
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font-family: Roboto Slab;
+    font-size: 30px;
+
+    text-align: center;
+
+    /* position: center; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+
+    /* width: 75%;
+    height: 75%; */
+}
+/* squid */
+.squidContainer{
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    
+    margin-left: 10%;
+    /* margin-top: 10%; */
+
+    width: 600px;
+    height: auto;
+
+}
+.squidImage{
+    width: 25%;
+    height: 25%;
+}
+.squidImage:hover{
+    width: 30%;
+    height: 30%;
+}
+
+.squidLabel{
+    opacity: 0.6;
+
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font-family: Roboto Slab;
+    font-size: 30px;
+
+    text-align: center;
+
+    /* position: center; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+
+    width: 75%;
+    height: 75%;
+}
+
+/* microplastic */
+.microplasticImage{
+    margin-left: 50%;
+
+    width: 300px;
+    height: 300px;
+}

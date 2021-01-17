@@ -1,15 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import {useRoutes} from 'react-router-dom'
+import Main from './Pages/Main.js'
+import Resources from './Pages/Resources.js'
 
 function App() {
-  return (
-    <div>
-      <h1> Hello</h1>
-      
-    </div>
-  );
+  const routes = [
+		{
+			path: "/",
+			element: <Main />,
+		},
+		{
+			path: "/resources",
+			element: <Resources />,
+		},
+	];
+
+	return useRoutes(routes);
 }
 
 export default App;

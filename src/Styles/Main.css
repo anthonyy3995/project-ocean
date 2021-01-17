@@ -1,0 +1,31 @@
+.App{
+    /* background: linear-gradient(rgb(0, 174, 255), rgb(0, 51, 161)); */
+    height: auto;
+    
+    /* display: grid;
+    grid-template-columns: 90% auto; */
+    
+  }
+  
+  .layers{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .dark{
+    background: linear-gradient(rgb(0, 51, 161), rgb(0, 33, 104));
+  }
+  .returnUpButton{
+    margin-left: 45%;
+    width: 70px;
+    height: 100px;
+  }
+  .exploreButton{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 45%;
+    width: 100px;
+    height: 75px;
+  
+  
+  }

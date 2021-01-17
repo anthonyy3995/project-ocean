@@ -1,0 +1,26 @@
+.navContainer{
+    opacity: 0.2;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: stretch;
+
+    margin-top: 215px;
+    margin-left: 90%;
+    margin-right: 10px;
+
+    width: 100px;
+    height: 300px;
+
+    background-color: white;
+
+  }
+
+  .navButton{
+      opacity:1;
+      background-color: white;
+
+  }
