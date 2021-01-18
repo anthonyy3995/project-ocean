@@ -1,3 +1,116 @@
 .Trench{
-    height: 1000px;
+    height: 500px;
+}
+/* .floor{
+    position: absolute;
+    background-color: green;
+    height:500px;
+    width: 100%;
+    background-image: url('./../all-images/trenchBottom.png');
+    background-size: 100% 100%;
+    background-position: bottom;
+} */
+.trenchTitle{
+    /* important */
+    position: absolute;
+
+    margin-left: 40%;
+    margin-top: 8%;
+
+    width: 20%;
+
+    text-align: center;
+    font-family: Roboto Slab;
+    color: yellow;
+    
+}
+
+/* Shrimp */
+.shrimpContainer{
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    margin-left: 10%;
+    margin-top: 10%;
+
+    width: 700px;
+    height: 300px;
+
+}
+.shrimpImage{
+    width: 150px;
+    height: 150px;
+    transform: scaleX(-1);
+}
+.shrimpImage:hover{
+    width: 160px;
+    height: 160px;
+    transform: scaleX(-1);
+}
+
+.shrimpLabel{
+    opacity: 0.6;
+    width: 200px;
+    height: 124px;
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font: Open Sans;
+    font-size: 20px;
+    line-height: 25px;
+
+    text-align: center;
+
+    /* position: center; */
+    margin-left: 4px;
+    padding: 20px 20px;
+}
+
+/* Crab */
+.crabContainer{
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    margin-left: 30%;
+    margin-top: 0%;
+
+    width: 700px;
+    height: 300px;
+
+}
+.crabImage{
+    width: 150px;
+    height: 150px;
+}
+.crabImage:hover{
+    width: 165px;
+    height: 165px;
+}
+
+.crabLabel{
+    opacity: 0.6;
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    /* position: center; */
+    margin-left: 4px;
+    padding: 20px 20px;
+}
+.microplasticTrench{
+    margin-left: 20%;
+    margin-top: 0%;
+
+    width: 150px;
+    height: 150px;
 }

@@ -1,5 +1,5 @@
 .Twilight{
-    height: 1000px;
+    height: 800px;
 }
 
 /* .fishImage:hover{
@@ -7,17 +7,42 @@
     height: 200px;
 } */
 /* fish */
+.twilightTitle{
+    /* important */
+    position: absolute;
+
+    margin-left: 40%;
+    margin-top: 8%;
+
+    width: 20%;
+
+    text-align: center;
+    font-family: Roboto Slab;
+    color: yellow;
+    
+}
+.bubblesOne{
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+
+    margin-left: 30%;
+}
+
+
 .fishContainer{
+
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
     align-items: stretch;
     
-    margin-left: 40%;
+    margin-left: 60%;
     margin-top: 10%;
 
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 185px;
 
 }
 .fishImage{
@@ -25,8 +50,8 @@
     height: 125px;
 }
 .fishImage:hover{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 
 .fishLabel{
@@ -36,40 +61,40 @@
     border-color: black;
     background-color: white;
     
-    font-family: Roboto Slab;
-    font-size: 30px;
+    font: Open Sans;
+    font-size: 20px;
 
     text-align: center;
 
-    /* position: center; */
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding: 20px;
 
-
-    /* width: 75%;
-    height: 75%; */
+    line-height: 28px;
 }
+
 /* squid */
-.squidContainer{
+.squidContainer{    
+    position: absolute;
+    
     display:flex;
     align-items: center;
     align-items: stretch;
     
     margin-left: 10%;
-    /* margin-top: 10%; */
 
-    width: 600px;
+    width: 550px;
     height: auto;
-
 }
+
 .squidImage{
     width: 25%;
     height: 25%;
 }
+
 .squidImage:hover{
-    width: 30%;
-    height: 30%;
+    width: 26%;
+    height: 26%;
 }
 
 .squidLabel{
@@ -79,24 +104,70 @@
     border-color: black;
     background-color: white;
     
-    font-family: Roboto Slab;
-    font-size: 30px;
+    font: Open Sans;
+    font-size: 20px;
 
     text-align: center;
 
     /* position: center; */
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
-    padding: 50px;
+    padding: 20px;
 
+    width: 40%;
+    height: 40%;
+}
 
-    width: 75%;
-    height: 75%;
+/* shark */
+
+.sharkContainer{
+    position: absolute;
+
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-items: stretch;
+    
+    margin-left: 40%;
+    margin-top: 10%;
+
+    width: 600px;
+    height: 165px;
+
+}
+.sharkImage{
+    width: 300px;
+    height: 300px;
+}
+.sharkImage:hover{
+    width: 308px;
+    height: 308px;
+}
+
+.sharkLabel{
+    opacity: 0.6;
+
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font: Open Sans;
+    font-size: 20px;
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 20px;
+
+    line-height: 27px;
 }
 
 /* microplastic */
 .microplasticImage{
-    margin-left: 50%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 20%;
 
     width: 300px;
     height: 300px;

@@ -1,31 +1,57 @@
 .App{
-    /* background: linear-gradient(rgb(0, 174, 255), rgb(0, 51, 161)); */
-    height: auto;
     
-    /* display: grid;
-    grid-template-columns: 90% auto; */
+    height: auto;
+    width: auto;
+    
+    
     
   }
-  
+ 
   .layers{
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    
   }
+  .light{
+      display:flex;
+      flex-direction: column;
+  }
+  /* div{
+    display:inline-block
+
+  }
+   */
+  
   .dark{
     background: linear-gradient(rgb(0, 51, 161), rgb(0, 33, 104));
   }
   .returnUpButton{
+    margin-top: 15%;
     margin-left: 45%;
-    width: 70px;
-    height: 100px;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    font: Open Sans;
+    opacity: 80%;
+    
   }
-  .exploreButton{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 45%;
-    width: 100px;
-    height: 75px;
-  
-  
+  .returnUpButton:hover{
+    width: 170px;
+    height: 170px;
+        /* border-radius: 10%;
+        opacity: 0.6;
+        background-color: white; */
   }
+
+  .oceanFloor{
+    /* height: 650px; */
+    /* width: 1250px; */
+    height: 500px;
+    width: 100%;
+    background-image: url('./../all-images/trenchBottom.png');
+    background-size: 100% 100%;
+    background-position: left bottom;
+
+
+}

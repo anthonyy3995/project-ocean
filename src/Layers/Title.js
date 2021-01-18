@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import './../Styles/Title.css';
 import Boat from './../all-images/fishing-boat.png';
+import DownArrow from './../all-images/thin-arrowheads-pointing-down.png';
+
 
 function Title(){
     
@@ -9,12 +11,21 @@ function Title(){
     
     return(
         <div className ='title'>
-            <h1>
-                Insert Daniel's Image
-            </h1>
-            <Link to='/resources'>
-                Resources
-            </Link>
+            <p>-</p>
+            <div className='resourcesButton'>
+                <a className='resourcesLink' href='/resources'>
+                    Resources
+                </a>
+
+            </div>
+            <div className='downArrowContainer'>
+                <Link  to='sunlight' spy={true} smooth={true} duration={500} >
+                    <img className='downArrow' src={DownArrow}/>
+                </Link>
+
+            </div>
+           
+
             <div id='boat' className='boatContainer'>
                 <img alt='' src={Boat} className='boatImage' 
                     // listeners
@@ -28,7 +39,7 @@ function Title(){
                     </h2>:
                     // if false
                     <h1>
-                        {/* emptiness */}
+                        
                     </h1>
                 }
 

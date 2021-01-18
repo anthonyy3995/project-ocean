@@ -1,24 +1,87 @@
 .title{
     height: 650px;
+    /* width: 1250px; */
+    width: 100%;
+    background-image: url('./../all-images/titlePageFINAL.png');
+    background-size: 100% 100%;
+    background-position: left bottom;
+
 
 }
-.waves{
-    width: 100%;
-    height: 200px;
+.downArrow{
+    position: absolute;
+    
+    margin-left: 50%;
 
-    margin-top: 375px;
+    width: 75px;
+    height: 75px;
+}
+.downArrow:hover{
+    width: 80px;
+    height: 80px;
+}
+.downArrowContainer{
+    margin-top: 25%;
+
+}
+.resourcesButton{
+    /* margin-left: 300px;
+    /* margin-top: 425px; */
+    margin-top: 10px;
+
+    /* margin-top: 0px; */
+
+    width: 200px;
+    /* height: 50px; */
+    
+    border-radius: 25px;
+
+    margin-left: 40%;
+
+    font-family: Open Sans;
+    
+    font-size: 20px;
+
+    padding: 20px 25px;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: black;
+    background-color: white;
+
+    opacity: 0.85; 
+}
+.resourcesButton:hover{
+    color:white;
+    /*background-color: rgb(190, 234, 255);*/
+    background-color: white;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+.resourcesLink{
+    text-decoration: none;
+}
+.resourcesLink:visited{
+    /* color: white; */
+    text-decoration: none;
+    color:black;
+
 }
 .boatContainer{
     display: flex; 
+
     /* align-items: center; */
     /* align-items: stretch;*/
     
     margin-left: 300px;
-    margin-top: 400px;
+    margin-top: 350px;
+
     /* margin-top: 0px; */
 
-    width: 600px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
 }
 .boatImage{
     width: 200px;
@@ -28,27 +91,21 @@
 .boatImage:hover{
     /* width: 25%;
     height: 25%; */
+    width: 210px;
+    height: 210px;
 } 
 
 .boatLabel{
-    opacity: 0.6;
+    opacity: 0.75;
 
     border-radius: 5%;
     border-color: black;
     background-color: white;
     
     font-family: Open Sans;
-    font-size: 25px;
+    font-size: 18px;
 
     text-align: center;
 
-    /* position: center; */
-    /* margin-left: auto;
-    margin-right: auto; */
-
-    padding: 50px;
-
-
-    /* width: 75%;
-    height: 75%; */
+    padding: 18px;
 }

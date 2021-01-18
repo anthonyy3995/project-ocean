@@ -8,6 +8,7 @@ import Trench from './../Layers/Trench.js'
 // import useOnScreen from './../Hooks/UseOnScreen.js';
 import './../Styles/Main.css';
 import './../Styles/Nav.css';
+import UpArrow from './../all-images/arrow-up.png';
 
 function useOnScreen(ref, rootMargin = '0px') {
     // State and setter for storing whether element is visible
@@ -46,45 +47,48 @@ function Main(){
   const trenchRef = useRef(null)
 
   //instantiate useonescreen refs
-  const titleVisible = useOnScreen(titleRef, '-300px');
-  const sunlightVisible = useOnScreen(sunlightRef, '-300px');
-  const twilightVisible = useOnScreen(twilightRef, '-350px');
-  const midnightVisible = useOnScreen(midnightRef, '-300px');
-  const abyssVisible = useOnScreen(abyssRef, '-300px');
-  const trenchVisible = useOnScreen(trenchRef, '-300px');
+    const titleVisible = useOnScreen(titleRef, '-300px');
+    const sunlightVisible = useOnScreen(sunlightRef, '-300px');
+    const twilightVisible = useOnScreen(twilightRef, '-300px');
+    const midnightVisible = useOnScreen(midnightRef, '-300px');
+    const abyssVisible = useOnScreen(abyssRef, '-300px');
+    const trenchVisible = useOnScreen(trenchRef, '-300px');
+ 
+  
 
   const NavBar = () => {
     return(
       <div className='navContainer'> 
         <button 
-          className='navButton'
+          className={`navButton ${sunlightVisible ? "active" : ""}`}
           onClick={()=> executeScroll(sunlightRef)}
         >
-          {sunlightVisible ? <h2>SHOWN</h2> : 1}
+            Sunlight
+          
         </button>
         <button 
-          className='navButton'
+          className={`navButton ${twilightVisible ? "active" : ""}`}
           onClick={()=> executeScroll(twilightRef)}
         >
-          {twilightVisible ? <h2>SHOWN</h2> : 2}
+          Twilight
         </button>
         <button 
-          className='navButton'
+          className={`navButton ${midnightVisible ? "active" : ""}`}
           onClick={()=>executeScroll(midnightRef)}
         >
-          {midnightVisible ? <h2>SHOWN</h2> : 3}
+          Midnight
         </button>
         <button 
-          className='navButton'
+          className={`navButton ${abyssVisible ? "active" : ""}`}
           onClick={()=>executeScroll(abyssRef)}
         >
-          {abyssVisible ? <h2>SHOWN</h2> : 4}
+          Abyss
         </button>
         <button 
-          className='navButton'
+          className={`navButton ${trenchVisible ? "active" : ""}`}
           onClick={()=>executeScroll(trenchRef)}
         >
-          {trenchVisible ? <h2>SHOWN</h2> : 5}
+          Trench
         </button>
       </div>
     )
@@ -94,8 +98,6 @@ function Main(){
     behavior: 'smooth'
   });
 
-
-
   return (
     <div className='App'>
 
@@ -103,23 +105,25 @@ function Main(){
       
       <div className='layers'> 
         <div className='light'>
-          <button className='exploreButton' onClick={()=>executeScroll(sunlightRef)}>
-              Explore!
-          </button>
-          <div ref={titleRef}><Title visible={sunlightVisible}/></div>
-          <div ref={sunlightRef}><Sunlight/></div>
+        
+          <div ref={titleRef}>
+              <Title/>
+            </div>
+            <div id='sunlight' ref={sunlightRef}>
+              <Sunlight />
+            </div>
         </div>
         <div className='dark'>
-          <div ref={twilightRef}><Twilight/></div>
-          <div ref={midnightRef}><Midnight/></div>
-          <div ref={abyssRef}><Abyss/></div>
-          <div ref={trenchRef}><Trench/></div>
-          <button 
-            className='returnUpButton' 
-            onClick={() => executeScroll(titleRef)}
-          >
-            Go back up
-          </button>
+          <div ref={twilightRef}><Twilight /></div>
+          <div ref={midnightRef}><Midnight /></div>
+          <div ref={abyssRef}><Abyss /></div>
+          <div ref={trenchRef}><Trench /></div>
+          <div className='oceanFloor'>
+              <img src={UpArrow} className='returnUpButton' onClick={() => executeScroll(titleRef)}/>
+          </div>
+         
+          
+
         </div>
         
       </div>

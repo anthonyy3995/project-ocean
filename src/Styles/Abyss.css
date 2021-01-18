@@ -1,3 +1,123 @@
 .Abyss{
-    height: 1000px;
+    height: 700px;
+}
+.abyssTitle{
+    /* important */
+    position: absolute;
+
+    margin-left: 40%;
+    margin-top: 8%;
+
+    width: 20%;
+
+    text-align: center;
+    font-family: Roboto Slab;
+    color: yellow;
+    
+}
+
+/* Jellyfish */
+.jellyfishContainer{
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    
+    margin-left: 15%;
+    margin-top: 5%;
+
+    width: 550px;
+    height: 280px;
+
+}
+.jellyfishImage{
+    width: 150px;
+    height: 150px;
+}
+.jellyfishImage:hover{
+    width: 160px;
+    height: 160px;
+}
+
+.jellyfishLabel{
+    opacity: 0.6;
+
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font: Open Sans;
+    font-size: 20px;
+
+    text-align: center;
+
+    /* position: center; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+    height: 145px;
+    
+    line-height: 27px;
+}
+
+/* Starfish */
+.starfishContainer{
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    margin-left: 50%;
+    margin-top: 5%;
+
+    width: 700px;
+    height: 300px;
+}
+.starfishImage{
+    width: 150px;
+    height: 150px;
+}
+.starfishImage:hover{
+    width: 165px;
+    height: 165px;
+}
+
+.starfishLabel{
+    padding: 15px;
+    opacity: 0.6;
+    width: 250px;
+    height: 130px;
+    border-radius: 5%;
+    border-color: black;
+    background-color: white;
+    
+    font: Open Sans;
+    font-size: 20px;
+    line-height: 25px;
+
+    text-align: center;
+}
+
+.bottleImage{
+    width: 120px;
+    height: 120px;
+
+    transform: rotate(20deg);
+    
+    margin-left: 25%;
+}
+
+.bottleImage2{
+    width: 120px;
+    height: 120px;
+
+    transform: rotate(120deg);
+    
+    margin-left: 60%;
+}
+
+.microplasticAbyss{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 00%;
+
+    width: 150px;
+    height: 150px;
 }
