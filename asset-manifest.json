@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/project-ocean/static/css/main.c411ca18.chunk.css",
+    "main.js": "/project-ocean/static/js/main.3d057e9d.chunk.js",
+    "main.js.map": "/project-ocean/static/js/main.3d057e9d.chunk.js.map",
+    "runtime-main.js": "/project-ocean/static/js/runtime-main.aaddf861.js",
+    "runtime-main.js.map": "/project-ocean/static/js/runtime-main.aaddf861.js.map",
+    "static/js/2.82c13784.chunk.js": "/project-ocean/static/js/2.82c13784.chunk.js",
+    "static/js/2.82c13784.chunk.js.map": "/project-ocean/static/js/2.82c13784.chunk.js.map",
+    "static/js/3.f44f3105.chunk.js": "/project-ocean/static/js/3.f44f3105.chunk.js",
+    "static/js/3.f44f3105.chunk.js.map": "/project-ocean/static/js/3.f44f3105.chunk.js.map",
+    "index.html": "/project-ocean/index.html",
+    "static/css/main.c411ca18.chunk.css.map": "/project-ocean/static/css/main.c411ca18.chunk.css.map",
+    "static/js/2.82c13784.chunk.js.LICENSE.txt": "/project-ocean/static/js/2.82c13784.chunk.js.LICENSE.txt",
+    "static/media/anglerfish copy.85eabcf6.png": "/project-ocean/static/media/anglerfish copy.85eabcf6.png",
+    "static/media/bubbles2.1cfee562.png": "/project-ocean/static/media/bubbles2.1cfee562.png",
+    "static/media/bubblesOne.2673cb5d.png": "/project-ocean/static/media/bubblesOne.2673cb5d.png",
+    "static/media/crab.ee2b4f3d.png": "/project-ocean/static/media/crab.ee2b4f3d.png",
+    "static/media/fish copy.ea564d4d.png": "/project-ocean/static/media/fish copy.ea564d4d.png",
+    "static/media/fishing-boat.0f066899.png": "/project-ocean/static/media/fishing-boat.0f066899.png",
+    "static/media/jellyfish copy.301fe709.png": "/project-ocean/static/media/jellyfish copy.301fe709.png",
+    "static/media/microplastic.6d4ed0a6.png": "/project-ocean/static/media/microplastic.6d4ed0a6.png",
+    "static/media/plastic-bag-FINAL.afecf59e.png": "/project-ocean/static/media/plastic-bag-FINAL.afecf59e.png",
+    "static/media/plastic-bottle.44fcf795.png": "/project-ocean/static/media/plastic-bottle.44fcf795.png",
+    "static/media/sharkFINAL.c43e62dd.png": "/project-ocean/static/media/sharkFINAL.c43e62dd.png",
+    "static/media/shrimp copy.70dfd457.png": "/project-ocean/static/media/shrimp copy.70dfd457.png",
+    "static/media/squid copy.a2974d0f.png": "/project-ocean/static/media/squid copy.a2974d0f.png",
+    "static/media/starfish.e78e3d2a.png": "/project-ocean/static/media/starfish.e78e3d2a.png",
+    "static/media/Title.css": "/project-ocean/static/media/titlePageFINAL.f21723ee.png",
+    "static/media/trashfish.84226978.png": "/project-ocean/static/media/trashfish.84226978.png",
+    "static/media/Main.css": "/project-ocean/static/media/trenchBottom.72171844.png",
+    "static/media/turtle copy.122f4e28.png": "/project-ocean/static/media/turtle copy.122f4e28.png",
+    "static/media/whale.da145dfd.png": "/project-ocean/static/media/whale.da145dfd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaddf861.js",
+    "static/js/2.82c13784.chunk.js",
+    "static/css/main.c411ca18.chunk.css",
+    "static/js/main.3d057e9d.chunk.js"
+  ]
+}
