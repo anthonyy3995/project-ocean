@@ -57,8 +57,6 @@ function Trench(props){
                         {/* emptiness */}
                     </h1>
                 }
-            {/* <div className='floor'></div> */}
-                
             </div>
             <img alt='' src={Microplastic} className='microplasticTrench'/>
         </div>

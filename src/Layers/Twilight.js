@@ -5,7 +5,6 @@ import Fish from './../all-images/fish copy.png';
 import Squid from './../all-images/squid copy.png';
 import Shark from './../all-images/sharkFINAL.png'
 import Microplastic from './../all-images/microplastic.png';
-// import Bubbles from './../all-images/bubbles.png';
 import bubbleOne from './../all-images/bubblesOne.png'
 
 function Twilight(props){
@@ -16,9 +15,6 @@ function Twilight(props){
     
     return(
         <div className ='Twilight'>
-            {/* {props.visible ? <Typist>
-                <h1 className='twilightTitle'>Twilight Layer</h1>
-            </Typist> : ''} */}
             <Typist cursor={{show:false, hideWhenDone:true}}>
                 <h1 className='twilightTitle'>Twilight Layer</h1>
             </Typist>
@@ -77,12 +73,9 @@ function Twilight(props){
                         {/* emptiness */}
                     </h1>
                 }
-                
             </div>
             <img alt='' src={Microplastic} className='microplasticImage'/> 
-
         </div>
-        
     )
     
 

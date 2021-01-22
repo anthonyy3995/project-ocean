@@ -2,11 +2,6 @@
     height: 800px;
 }
 
-/* .fishImage:hover{
-    width: 200px;
-    height: 200px;
-} */
-/* fish */
 .twilightTitle{
     /* important */
     position: absolute;
@@ -119,7 +114,6 @@
 }
 
 /* shark */
-
 .sharkContainer{
     position: absolute;
 

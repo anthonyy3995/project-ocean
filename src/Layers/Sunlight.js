@@ -35,10 +35,8 @@ function Sunlight(props){
                     <h1>
                         {/* emptiness */}
                     </h1>
-                }
-                
+                }  
             </div>
-
             <div id='trashfish' className='trashfishContainer'>
                 <img alt='' src={TrashFish} className='trashfishImage' 
                     // listeners
@@ -56,7 +54,6 @@ function Sunlight(props){
                         {/* emptiness */}
                     </h1>
                 }
-                
             </div>
         </div>
         

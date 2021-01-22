@@ -16,16 +16,12 @@ function Title(){
                 <a className='resourcesLink' href='/resources'>
                     Resources
                 </a>
-
             </div>
             <div className='downArrowContainer'>
                 <Link  to='sunlight' spy={true} smooth={true} duration={500} >
                     <img className='downArrow' src={DownArrow}/>
                 </Link>
-
             </div>
-           
-
             <div id='boat' className='boatContainer'>
                 <img alt='' src={Boat} className='boatImage' 
                     // listeners
@@ -39,10 +35,8 @@ function Title(){
                     </h2>:
                     // if false
                     <h1>
-                        
                     </h1>
                 }
-
             </div>
         </div>
         

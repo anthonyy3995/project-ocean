@@ -25,14 +25,10 @@
 
 }
 .resourcesButton{
-    /* margin-left: 300px;
-    /* margin-top: 425px; */
+
     margin-top: 10px;
 
-    /* margin-top: 0px; */
-
     width: 200px;
-    /* height: 50px; */
     
     border-radius: 25px;
 
@@ -54,7 +50,7 @@
 }
 .resourcesButton:hover{
     color:white;
-    /*background-color: rgb(190, 234, 255);*/
+ 
     background-color: white;
     opacity: 1;
     text-decoration: none;
@@ -64,7 +60,7 @@
     text-decoration: none;
 }
 .resourcesLink:visited{
-    /* color: white; */
+
     text-decoration: none;
     color:black;
 
@@ -72,13 +68,9 @@
 .boatContainer{
     display: flex; 
 
-    /* align-items: center; */
-    /* align-items: stretch;*/
     
     margin-left: 300px;
     margin-top: 350px;
-
-    /* margin-top: 0px; */
 
     width: 400px;
     height: 200px;
@@ -89,8 +81,7 @@
 
 }
 .boatImage:hover{
-    /* width: 25%;
-    height: 25%; */
+    
     width: 210px;
     height: 210px;
 } 

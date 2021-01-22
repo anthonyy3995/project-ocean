@@ -54,8 +54,6 @@ function Main(){
     const abyssVisible = useOnScreen(abyssRef, '-300px');
     const trenchVisible = useOnScreen(trenchRef, '-300px');
  
-  
-
   const NavBar = () => {
     return(
       <div className='navContainer'> 
@@ -97,7 +95,6 @@ function Main(){
   const executeScroll = (id) => id.current.scrollIntoView({
     behavior: 'smooth'
   });
-
   return (
     <div className='App'>
 
@@ -121,13 +118,8 @@ function Main(){
           <div className='oceanFloor'>
               <img src={UpArrow} className='returnUpButton' onClick={() => executeScroll(titleRef)}/>
           </div>
-         
-          
-
         </div>
-        
       </div>
-      
     </div>
   );
 }

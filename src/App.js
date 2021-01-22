@@ -1,12 +1,13 @@
 import React from 'react';
-import {useRoutes} from 'react-router-dom'
+import {useRoutes, BrowserRouter, Route} from 'react-router-dom'
 import Main from './Pages/Main.js'
 import Resources from './Pages/Resources.js'
 
 function App() {
+
   const routes = [
 		{
-			path: "/",
+			path: "/project-ocean",
 			element: <Main />,
 		},
 		{

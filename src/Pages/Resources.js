@@ -14,19 +14,16 @@ function Resources(){
     const [showBubbleTwo, setShowBubbleTwo] = useState(false);
     const [showBubbleThree, setShowBubbleThree] = useState(false);
     const [showBubbleFour, setShowBubbleFour] = useState(false);
-
-
+    
     return(
         <div className='container'>
             <div className='backContainer'>
-                <Link to='/'>
+                <Link to='/project-ocean'>
                     <img className='back' src={BackArrow}/>
                 </Link>
             </div>
-            
             <h1 className= 'Title'>Resources</h1>
             <div className='bubbleContainer'>
-                
                 <div className='bubbleOne' onClick={()=>window.open(sevenActionsLink) }
                     onMouseEnter={() => setShowBubbleOne(true)}
                     onMouseLeave={() => setShowBubbleOne(false)}>
@@ -41,7 +38,6 @@ function Resources(){
                     {
                         showBubbleTwo ? 'GO HERE': 'Clean Local Beaches'
                     }
-
                 </div>
                 <div className='bubbleThree' onClick={()=>window.open(donationLinks) }
                     onMouseEnter={() => setShowBubbleThree(true)}
@@ -51,22 +47,15 @@ function Resources(){
                     }
 
                 </div>
-
                 <div className='bubbleFour' onClick={()=>window.open(petitionLinks) }
                     onMouseEnter={() => setShowBubbleFour(true)}
                     onMouseLeave={() => setShowBubbleFour(false)}>
                     {
                         showBubbleFour ? 'SIGN HERE': 'Make Your Voice Heard'
                     }
-
                 </div>
-
             </div>
-            
-
         </div>
-        
-    
     )
 }
 export default Resources;

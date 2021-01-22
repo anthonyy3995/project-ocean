@@ -1,15 +1,6 @@
 .Trench{
     height: 500px;
 }
-/* .floor{
-    position: absolute;
-    background-color: green;
-    height:500px;
-    width: 100%;
-    background-image: url('./../all-images/trenchBottom.png');
-    background-size: 100% 100%;
-    background-position: bottom;
-} */
 .trenchTitle{
     /* important */
     position: absolute;

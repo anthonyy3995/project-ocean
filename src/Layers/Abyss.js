@@ -6,7 +6,6 @@ import Starfish from './../all-images/starfish.png';
 import Bottle from './../all-images/plastic-bottle.png';
 import Microplastic from './../all-images/microplastic.png';
 
-
 function Abyss(props){
 
     const [showJellyfishBubble, setShowJellyfishBubble] = useState(false);    
@@ -15,9 +14,6 @@ function Abyss(props){
 
     return(
         <div className ='Abyss'>
-            {/* {props.visible ? <Typist>
-                <h1 className='abyssTitle'>Abyss Layer</h1>
-            </Typist> : ''} */}
             <Typist cursor={{show:false, hideWhenDone:true}} >
                 <h1 className='abyssTitle'>Abyss Layer</h1>
             </Typist>
@@ -38,7 +34,6 @@ function Abyss(props){
                     {/* emptiness */}
                 </h1>
             }
-
         </div>
         <img alt='' src={Bottle} className='bottleImage'/>
         <div id='starfish' className='starfishContainer'>
