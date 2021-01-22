@@ -7,7 +7,7 @@ function App() {
 
   const routes = [
 		{
-			path: "/project-ocean",
+			path: "/",
 			element: <Main />,
 		},
 		{

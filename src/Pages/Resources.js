@@ -14,11 +14,11 @@ function Resources(){
     const [showBubbleTwo, setShowBubbleTwo] = useState(false);
     const [showBubbleThree, setShowBubbleThree] = useState(false);
     const [showBubbleFour, setShowBubbleFour] = useState(false);
-    
+
     return(
         <div className='container'>
             <div className='backContainer'>
-                <Link to='/project-ocean'>
+                <Link to='/'>
                     <img className='back' src={BackArrow}/>
                 </Link>
             </div>
